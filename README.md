@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="logoo.png" alt="PhishX Logo" width="200"/>
 
 # 🛡️ PhishX
 
