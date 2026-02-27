@@ -24,7 +24,6 @@
 | 📧 **Email Analysis** | Detects phishing language, urgency tactics, and deceptive patterns using TF-IDF + Logistic Regression |
 | 🔗 **URL Checker** | Analyzes 15+ URL features — domain, special characters, HTTPS, IP usage — with Random Forest |
 | 📱 **QR Code Scan** | Decodes QR images, extracts embedded URLs, and runs them through the phishing model |
-| ⚡ **Keyboard Shortcuts** | Press `Enter` to check a URL, `Ctrl+Enter` to analyze an email |
 | 🌗 **Dark Mode** | Full dark/light theme toggle, preference saved to localStorage |
 | 📊 **Live Counters** | Animated scan, user, and organization statistics |
 
@@ -186,28 +185,6 @@ Multipart form data with an `image` field.
 ### `GET /health`
 ```json
 { "status": "healthy", "email_model_loaded": true, "url_model_loaded": true }
-```
-
----
-
-## 🌐 Deployment
-
-PhishX uses a **split deployment** strategy — the frontend is static and the backend is a persistent Python process.
-
-| Layer | Recommended Platform | Notes |
-|---|---|---|
-| **Frontend** | [Vercel](https://vercel.com) | Deploy the `frontend/` folder. Free, instant CDN. |
-| **Backend** | [Render](https://render.com) or [Railway](https://railway.app) | Full Flask support, persistent process, free tier. |
-| **Backend (alt)** | [Fly.io](https://fly.io) | Docker-based, excellent for ML workloads. |
-
-> ⚠️ **Vercel alone is not sufficient** for the backend — it uses serverless functions with a 250 MB limit and 10s timeout, which conflicts with loading ML `.pkl` models. Always host the backend on a persistent platform.
-
-**After deploying the backend**, update this line in `frontend/script.js`:
-```js
-// Change from:
-? 'http://localhost:5000'
-// To your deployed backend URL:
-? 'https://your-backend.onrender.com'
 ```
 
 ---
