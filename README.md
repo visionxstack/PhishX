@@ -11,7 +11,7 @@
 
 **PhishX** is a full-stack cybersecurity web application that uses Machine Learning to detect phishing threats across emails, URLs, and QR codes — with real-time results and confidence scoring.
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [API](#-api-reference) • [Deployment](#-deployment) • [ML Details](#-machine-learning)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [API](#-api-reference)  • [ML Details](#-machine-learning)
 
 </div>
 
