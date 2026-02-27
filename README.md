@@ -249,9 +249,3 @@ This project is licensed under the **MIT License**.See the [LICENSE](LICENSE) fi
 > *Built as a cybersecurity portfolio project demonstrating full-stack development, machine learning, and security awareness.*
 
 ---
-
-<div align="center">
-
-**⚡ Stay vigilant. Stay secure. ⚡**
-
-</div>
