@@ -363,9 +363,9 @@ This project is for **educational and research purposes only**.
 ---
 
 ## 👨‍💻 Author
-**Vision KC**
-[Github](https://github.com/vision-dev1)
-[Website](https://visionkc.com.np)
+**Vision KC**<br>
+[Github](https://github.com/vision-dev1)<br>
+[Portfolio](https://visionkc.com.np)
 
 ---
 
